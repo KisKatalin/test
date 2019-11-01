@@ -1,0 +1,43 @@
+body {
+    margin-left:10%;
+    margin-right:10%;
+
+}
+.stroka {
+    text-align: center;
+    color: #00A000;
+}
+.line {
+    border-left: 2px solid #ccc;
+
+}
+.otstup{
+    margin-left: 20px;
+    padding-left: 10px
+}
+h1, h3 {
+    text-align: center;
+    float:none;
+}
+.right {
+    text-align:right;
+    font-size: small;
+}
+.kolonka1 {
+    float: left;
+    margin-left: 20px;
+    padding-left: 10px
+}
+.kolonka2
+{
+    float: left;
+    margin-left: 20px;
+    padding-left: 10px
+}
+.full {
+    float: left;
+    width: 100%;
+}
+.bold {
+    font-weight: bold;
+}
