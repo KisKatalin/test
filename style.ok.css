@@ -41,3 +41,16 @@ h1, h3 {
 .bold {
     font-weight: bold;
 }
+.ing {
+    font-weight: bold;
+    font-size: 35px;
+}
+.ingredienty {
+    float: left;
+}
+.gramm {
+    float: right;
+}
+li {
+    margin-bottom: 15px;
+}
