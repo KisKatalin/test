@@ -1,0 +1,8 @@
+.default-input {
+    border: #00bb00 5px solid;
+    padding: 5px;
+}
+
+.error-input {
+    border: #9A0000 1px solid;
+}

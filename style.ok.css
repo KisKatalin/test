@@ -3,6 +3,9 @@ body {
     margin-right:10%;
 
 }
+#date {
+    background-image: linear-gradient(90deg, white, #e7c28e, #6fa173, white);
+}
 .stroka {
     text-align: center;
     color: #00A000;
@@ -19,6 +22,8 @@ h1, h3 {
     text-align: center;
     float:none;
 }
+
+
 .right {
     text-align:right;
     font-size: small;
@@ -37,6 +42,10 @@ h1, h3 {
 .full {
     float: left;
     width: 100%;
+    text-align: center;
+}
+.full div {
+    width:20%;
 }
 .bold {
     font-weight: bold;
@@ -53,4 +62,10 @@ h1, h3 {
 }
 li {
     margin-bottom: 15px;
+}
+.center-img {
+    text-align: center;
+}
+.centraltext {
+    text-align:center;
 }

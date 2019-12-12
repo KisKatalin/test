@@ -19,6 +19,7 @@
 
 <p>Смартфон вышел в двух размерах: Pixel 4 и Pixel 4 XL.</p>
 <a href="https://www.apple.com" target="_blank">
+
 <img src="https://ain.ua/wp-content/uploads/2019/10/leaked_pixel_sizing.5-1024x538.jpg?x91963" alt="telefon">
 
 </a>
