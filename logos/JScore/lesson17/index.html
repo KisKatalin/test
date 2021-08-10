@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+
+</head>
+
+<body>
+  <div class="timer-block">
+    <div id="timer">01:00</div>
+  </div>
+  <div id="game-btn">
+    <input type="button" class="game-btn2" name="start" id="start" value="Start game!">
+    <input type="button" class="game-btn2" name="check" id="check" value="Check result">
+    <input type="button" class="game-btn2" name="new" id="new" value="New game">
+  </div>
+  <div id="main">
+    <div id="puzzle" class="game">
+      <div class="wrapper">
+        <div class="slice" id="slice1"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice2"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice3"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice4"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice5"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice6"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice7"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice8"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice9"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice10"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice11"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice12"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice13"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice14"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice15"></div>
+      </div>
+      <div class="wrapper">
+        <div class="slice" id="slice16"></div>
+      </div>
+    </div>
+    <div id="puzzle-area" class="game">
+      <div class="sliceArea" id="sliceArea1"></div>
+      <div class="sliceArea" id="sliceArea2"></div>
+      <div class="sliceArea" id="sliceArea3"></div>
+      <div class="sliceArea" id="sliceArea4"></div>
+      <div class="sliceArea" id="sliceArea5"></div>
+      <div class="sliceArea" id="sliceArea6"></div>
+      <div class="sliceArea" id="sliceArea7"></div>
+      <div class="sliceArea" id="sliceArea8"></div>
+      <div class="sliceArea" id="sliceArea9"></div>
+      <div class="sliceArea" id="sliceArea10"></div>
+      <div class="sliceArea" id="sliceArea11"></div>
+      <div class="sliceArea" id="sliceArea12"></div>
+      <div class="sliceArea" id="sliceArea13"></div>
+      <div class="sliceArea" id="sliceArea14"></div>
+      <div class="sliceArea" id="sliceArea15"></div>
+      <div class="sliceArea" id="slice16"></div>
+    </div>
+  </div>
+  <div id="error">
+    <div class="error-area" id="error-check">
+      <div id="error-check-text">You still have time, you sure? <span class="time"></span> </div>
+      <div class="btn-father">
+        <input type="button" class="error-check-btn" id="error-check-close" value="Close">
+        <input type="button" class="error-check-btn" id="error-check-check" value="Check">
+      </div>
+    </div>
+    <div class="error-area" id="error-check-yes-no">
+      <div id="error-check-yes-no-text">Woohoo, well done, you did it!</div>
+      <div class="btn-father">
+        <input type="button" class="error-check-btn error-check-yes-no-btn" id="error-check-yes-no-close" value="Close">
+      </div>
+    </div>
+  </div>
+  <script src="./jqwery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="  https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

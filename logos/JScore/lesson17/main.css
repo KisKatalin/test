@@ -1,0 +1,172 @@
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.timer-block{
+  text-align: center;
+  margin: 30px;
+}
+#timer{
+  font-size: 85px;
+}
+#game-btn{
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+}
+.game-btn2{
+  margin: 20px;
+  height: 35px;
+  width: 105px;
+  color: white;
+  background-color: rgb(236, 68, 68);
+  border: none;
+  border-radius: 5px;
+}
+#main{
+  display: flex;
+  justify-content: center;
+}
+
+/* puzzle */
+
+#puzzle {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  
+  flex-wrap: wrap;
+  box-shadow: rgb(37, 37, 37) 0px 5px 70px 4px;
+  margin: 30px 50px;
+  background-color: rgb(221, 215, 215);
+}
+.wrapper{
+  width: 100px;
+  height: 100px; 
+}
+#puzzle > div > div{
+  width: 100px;
+  height: 100px; 
+  box-sizing: border-box;
+  background: url(./taldura4277.jpeg) no-repeat;
+  background-size: 400%;
+}
+#puzzle-area > div > div {
+  box-sizing: border-box;
+  background: url(./taldura4277.jpeg) no-repeat;
+  background-size: 400%;
+  width: 100px;
+    height: 100px;
+}
+
+#puzzle > div#slice1, #puzzle-area > div#slice1  {
+  background-position: 0px 0px;
+}
+#puzzle > div#slice2, #puzzle-area > div#slice2 {
+  background-position: -100px 0px;
+}
+#puzzle > div#slice3, #puzzle-area > div#slice3 {
+  background-position: -200px 0px;
+}
+#puzzle > div#slice4, #puzzle-area > div#slice4{
+  background-position: -300px 0px;
+}
+#puzzle > div#slice5 , #puzzle-area > div#slice5{
+  background-position:  0px -100px;
+}
+#puzzle > div#slice6, #puzzle-area > div#slice6 {
+  background-position:  -100px -100px;
+}
+#puzzle > div#slice7 , #puzzle-area > div#slice7{
+  background-position:  -200px -100px;
+}
+#puzzle > div#slice8 , #puzzle-area > div#slice8{
+  background-position:  -300px -100px;
+}
+#puzzle > div#slice9 , #puzzle-area > div#slice9{
+  background-position:  0px -200px;
+}
+#puzzle > div#slice10 , #puzzle-area > div#slice10 {
+  background-position:  -100px -200px;
+}
+#puzzle > div#slice11, #puzzle-area > div#slice11 {
+  background-position:  -200px -200px;
+}
+#puzzle > div#slice12, #puzzle-area > div#slice12 {
+  background-position:  -300px -200px;
+}
+#puzzle > div#slice13, #puzzle-area > div#slice13 {
+  background-position:  0px -300px;
+}
+#puzzle > div#slice14, #puzzle-area > div#slice14 {
+  background-position:  -100px -300px;
+}
+#puzzle > div#slice15, #puzzle-area > div#slice15 {
+  background-position:  -200px -300px;
+}
+#puzzle > div#slice16, #puzzle-area > div#slice16 {
+  background-position:  -300px -300px;
+}
+#puzzle-area{
+width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgb(37, 37, 37) 0px 5px 70px 4px;
+  margin: 30px 50px;
+  background-color: rgb(221, 215, 215);
+}
+
+.sliceArea{
+  width: 100px;
+height: 100px;
+}
+/* error */
+
+ c
+#error-check{
+  display: none;
+}
+.error-area{
+  margin-top: 30px;
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  align-items: center;
+  top: 110px;
+  background-color: whitesmoke;
+  left: 449px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 184, 184);;
+  box-sizing: border-box;
+  padding: 40px 0;
+}
+.btn-father{
+  display: flex;
+  justify-content: center;
+}
+#error-check-text, #error-check-yes-no-text{
+  border-bottom: 1px solid rgb(184, 184, 184);
+  border-top: 1px solid rgb(184, 184, 184); ;
+  width: 700px;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px 0;
+}
+.error-check-btn{
+  height: 40px;
+  width: 75px;
+  margin: 10px;
+  color: white;
+  border: none;
+ border-radius: 5px;
+ font-size: 15px;
+}
+#error-check-close, .error-check-yes-no-btn{
+background-color: rgb(247, 70, 39);
+}
+#error-check-check{
+  background-color: green;
+}
+#error-check-yes-no{
+display: none;
+}
